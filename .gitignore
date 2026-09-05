@@ -1,0 +1,96 @@
+# ---------------------------------------------------------------
+# Project data & documents (kept out of version control)
+# ---------------------------------------------------------------
+dataset/
+project_description/
+
+# Documents
+*.docx
+*.doc
+*.pptx
+*.ppt
+*.md
+
+# keep the README tracked despite the *.md rule above:
+!README.md
+
+# ---------------------------------------------------------------
+# ML / YOLO artifacts
+# ---------------------------------------------------------------
+runs/
+weights/
+outputs/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.h5
+*.pkl
+wandb/
+mlruns/
+.roboflow/
+
+# ---------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Testing / coverage
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+*.key
+credentials.json
+
+# ---------------------------------------------------------------
+# IDE & OS
+# ---------------------------------------------------------------
+.idea/
+.vscode/
+*.iml
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
