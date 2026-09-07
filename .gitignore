@@ -30,6 +30,8 @@ checkpoints/
 *.pkl
 wandb/
 mlruns/
+mlartifacts/
+mlflow.db*
 .roboflow/
 
 # ---------------------------------------------------------------

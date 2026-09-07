@@ -4,3 +4,5 @@ pillow
 pyyaml
 imagehash
 jupyterlab
+ultralytics
+mlflow
