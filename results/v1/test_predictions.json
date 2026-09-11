@@ -1,0 +1,2368 @@
+[
+  {
+    "image": "BEAUTY_A004.jpg",
+    "model": "b1-rgb",
+    "weights": "E:\\PycharmProjects\\camel-beauty-assessor\\runs\\baseline\\b1-rgb\\weights\\best.pt",
+    "conf_threshold": 0.25,
+    "cv_ms": 74.3,
+    "camels": [
+      {
+        "camel_id": 1,
+        "box_xyxyn": [
+          0.3373,
+          0.2487,
+          0.8805,
+          0.8859
+        ],
+        "confidence": 0.9,
+        "traits_present": [
+          {
+            "trait": "Large_hump",
+            "confidence": 0.92,
+            "box_xyxyn": [
+              0.6078,
+              0.2786,
+              0.7273,
+              0.3899
+            ]
+          },
+          {
+            "trait": "Long-legs",
+            "confidence": 0.756,
+            "box_xyxyn": [
+              0.6835,
+              0.4891,
+              0.7622,
+              0.8696
+            ]
+          },
+          {
+            "trait": "Large-head",
+            "confidence": 0.641,
+            "box_xyxyn": [
+              0.3488,
+              0.3563,
+              0.4323,
+              0.4611
+            ]
+          },
+          {
+            "trait": "Large-lips",
+            "confidence": 0.604,
+            "box_xyxyn": [
+              0.351,
+              0.4186,
+              0.3775,
+              0.4592
+            ]
+          },
+          {
+            "trait": "Wide_body",
+            "confidence": 0.483,
+            "box_xyxyn": [
+              0.5637,
+              0.4082,
+              0.7127,
+              0.4468
+            ]
+          },
+          {
+            "trait": "Long-legs",
+            "confidence": 0.408,
+            "box_xyxyn": [
+              0.6569,
+              0.4875,
+              0.7561,
+              0.8732
+            ]
+          },
+          {
+            "trait": "High_withers",
+            "confidence": 0.369,
+            "box_xyxyn": [
+              0.5059,
+              0.3291,
+              0.6063,
+              0.4345
+            ]
+          },
+          {
+            "trait": "Long-neck",
+            "confidence": 0.36,
+            "box_xyxyn": [
+              0.4002,
+              0.3728,
+              0.5144,
+              0.5617
+            ]
+          }
+        ],
+        "traits_absent": [
+          "Large-nose"
+        ]
+      },
+      {
+        "camel_id": 2,
+        "box_xyxyn": [
+          0.7706,
+          0.2614,
+          0.9998,
+          0.8783
+        ],
+        "confidence": 0.614,
+        "traits_present": [
+          {
+            "trait": "Long-neck",
+            "confidence": 0.836,
+            "box_xyxyn": [
+              0.8396,
+              0.3595,
+              0.9779,
+              0.5346
+            ]
+          }
+        ],
+        "traits_absent": [
+          "High_withers",
+          "Large-head",
+          "Large-lips",
+          "Large-nose",
+          "Large_hump",
+          "Long-legs",
+          "Wide_body"
+        ]
+      },
+      {
+        "camel_id": 3,
+        "box_xyxyn": [
+          0.2965,
+          0.7257,
+          0.3397,
+          0.7585
+        ],
+        "confidence": 0.269,
+        "traits_present": [],
+        "traits_absent": [
+          "High_withers",
+          "Large-head",
+          "Large-lips",
+          "Large-nose",
+          "Large_hump",
+          "Long-legs",
+          "Long-neck",
+          "Wide_body"
+        ]
+      }
+    ],
+    "unassigned_traits": [],
+    "note": "traits_absent is what the detector did not find. the report must not claim any of them."
+  },
+  {
+    "image": "BEAUTY_A012.jpg",
+    "model": "b1-rgb",
+    "weights": "E:\\PycharmProjects\\camel-beauty-assessor\\runs\\baseline\\b1-rgb\\weights\\best.pt",
+    "conf_threshold": 0.25,
+    "cv_ms": 21.7,
+    "camels": [
+      {
+        "camel_id": 1,
+        "box_xyxyn": [
+          0.1557,
+          0.0193,
+          0.8273,
+          1.0
+        ],
+        "confidence": 0.923,
+        "traits_present": [
+          {
+            "trait": "Large_hump",
+            "confidence": 0.824,
+            "box_xyxyn": [
+              0.5321,
+              0.1976,
+              0.719,
+              0.3894
+            ]
+          },
+          {
+            "trait": "High_withers",
+            "confidence": 0.812,
+            "box_xyxyn": [
+              0.4061,
+              0.2668,
+              0.5435,
+              0.3972
+            ]
+          },
+          {
+            "trait": "Long-neck",
+            "confidence": 0.787,
+            "box_xyxyn": [
+              0.2582,
+              0.1538,
+              0.429,
+              0.5457
+            ]
+          },
+          {
+            "trait": "Large-head",
+            "confidence": 0.753,
+            "box_xyxyn": [
+              0.1787,
+              0.0328,
+              0.3659,
+              0.1996
+            ]
+          },
+          {
+            "trait": "Large-nose",
+            "confidence": 0.52,
+            "box_xyxyn": [
+              0.1918,
+              0.0354,
+              0.2725,
+              0.1029
+            ]
+          },
+          {
+            "trait": "Large-lips",
+            "confidence": 0.491,
+            "box_xyxyn": [
+              0.187,
+              0.1058,
+              0.2515,
+              0.1745
+            ]
+          }
+        ],
+        "traits_absent": [
+          "Long-legs",
+          "Wide_body"
+        ]
+      }
+    ],
+    "unassigned_traits": [],
+    "note": "traits_absent is what the detector did not find. the report must not claim any of them."
+  },
+  {
+    "image": "BEAUTY_A014.jpg",
+    "model": "b1-rgb",
+    "weights": "E:\\PycharmProjects\\camel-beauty-assessor\\runs\\baseline\\b1-rgb\\weights\\best.pt",
+    "conf_threshold": 0.25,
+    "cv_ms": 25.0,
+    "camels": [
+      {
+        "camel_id": 1,
+        "box_xyxyn": [
+          0.1388,
+          0.2757,
+          0.7532,
+          0.979
+        ],
+        "confidence": 0.93,
+        "traits_present": [
+          {
+            "trait": "Large-nose",
+            "confidence": 0.957,
+            "box_xyxyn": [
+              0.157,
+              0.2928,
+              0.2108,
+              0.3402
+            ]
+          },
+          {
+            "trait": "Long-neck",
+            "confidence": 0.954,
+            "box_xyxyn": [
+              0.2201,
+              0.3822,
+              0.3645,
+              0.6012
+            ]
+          },
+          {
+            "trait": "Large-lips",
+            "confidence": 0.943,
+            "box_xyxyn": [
+              0.1497,
+              0.3418,
+              0.1934,
+              0.3905
+            ]
+          },
+          {
+            "trait": "High_withers",
+            "confidence": 0.941,
+            "box_xyxyn": [
+              0.3429,
+              0.3695,
+              0.4704,
+              0.4939
+            ]
+          },
+          {
+            "trait": "Large_hump",
+            "confidence": 0.888,
+            "box_xyxyn": [
+              0.4768,
+              0.3072,
+              0.6566,
+              0.4491
+            ]
+          },
+          {
+            "trait": "Large-head",
+            "confidence": 0.727,
+            "box_xyxyn": [
+              0.1436,
+              0.2835,
+              0.2854,
+              0.4039
+            ]
+          },
+          {
+            "trait": "Wide_body",
+            "confidence": 0.629,
+            "box_xyxyn": [
+              0.3861,
+              0.45,
+              0.6124,
+              0.5089
+            ]
+          }
+        ],
+        "traits_absent": [
+          "Long-legs"
+        ]
+      }
+    ],
+    "unassigned_traits": [
+      {
+        "trait": "High_withers",
+        "confidence": 0.28,
+        "box_xyxyn": [
+          0.8266,
+          0.5012,
+          0.8828,
+          0.5556
+        ]
+      }
+    ],
+    "note": "traits_absent is what the detector did not find. the report must not claim any of them."
+  },
+  {
+    "image": "BEAUTY_A015.jpg",
+    "model": "b1-rgb",
+    "weights": "E:\\PycharmProjects\\camel-beauty-assessor\\runs\\baseline\\b1-rgb\\weights\\best.pt",
+    "conf_threshold": 0.25,
+    "cv_ms": 17.6,
+    "camels": [
+      {
+        "camel_id": 1,
+        "box_xyxyn": [
+          0.3615,
+          0.3018,
+          0.9042,
+          0.8848
+        ],
+        "confidence": 0.927,
+        "traits_present": [
+          {
+            "trait": "Long-neck",
+            "confidence": 0.841,
+            "box_xyxyn": [
+              0.6888,
+              0.388,
+              0.8206,
+              0.5612
+            ]
+          },
+          {
+            "trait": "Long-legs",
+            "confidence": 0.826,
+            "box_xyxyn": [
+              0.6066,
+              0.5291,
+              0.6867,
+              0.8409
+            ]
+          },
+          {
+            "trait": "High_withers",
+            "confidence": 0.745,
+            "box_xyxyn": [
+              0.6108,
+              0.3834,
+              0.7188,
+              0.4686
+            ]
+          },
+          {
+            "trait": "Large_hump",
+            "confidence": 0.711,
+            "box_xyxyn": [
+              0.4694,
+              0.301,
+              0.6159,
+              0.4359
+            ]
+          },
+          {
+            "trait": "Long-legs",
+            "confidence": 0.657,
+            "box_xyxyn": [
+              0.3981,
+              0.5212,
+              0.5159,
+              0.8551
+            ]
+          },
+          {
+            "trait": "Large-lips",
+            "confidence": 0.639,
+            "box_xyxyn": [
+              0.8605,
+              0.3796,
+              0.8932,
+              0.414
+            ]
+          },
+          {
+            "trait": "Large-nose",
+            "confidence": 0.638,
+            "box_xyxyn": [
+              0.8437,
+              0.3449,
+              0.8918,
+              0.3787
+            ]
+          },
+          {
+            "trait": "Large-head",
+            "confidence": 0.492,
+            "box_xyxyn": [
+              0.7839,
+              0.3379,
+              0.8962,
+              0.4269
+            ]
+          },
+          {
+            "trait": "Wide_body",
+            "confidence": 0.458,
+            "box_xyxyn": [
+              0.475,
+              0.4543,
+              0.6464,
+              0.4897
+            ]
+          }
+        ],
+        "traits_absent": []
+      },
+      {
+        "camel_id": 2,
+        "box_xyxyn": [
+          0.8021,
+          0.2659,
+          1.0,
+          0.9429
+        ],
+        "confidence": 0.644,
+        "traits_present": [],
+        "traits_absent": [
+          "High_withers",
+          "Large-head",
+          "Large-lips",
+          "Large-nose",
+          "Large_hump",
+          "Long-legs",
+          "Long-neck",
+          "Wide_body"
+        ]
+      }
+    ],
+    "unassigned_traits": [],
+    "note": "traits_absent is what the detector did not find. the report must not claim any of them."
+  },
+  {
+    "image": "BEAUTY_A018.jpg",
+    "model": "b1-rgb",
+    "weights": "E:\\PycharmProjects\\camel-beauty-assessor\\runs\\baseline\\b1-rgb\\weights\\best.pt",
+    "conf_threshold": 0.25,
+    "cv_ms": 24.9,
+    "camels": [
+      {
+        "camel_id": 1,
+        "box_xyxyn": [
+          0.0084,
+          0.0645,
+          0.7738,
+          1.0
+        ],
+        "confidence": 0.613,
+        "traits_present": [
+          {
+            "trait": "Large_hump",
+            "confidence": 0.614,
+            "box_xyxyn": [
+              0.1855,
+              0.2422,
+              0.4487,
+              0.4481
+            ]
+          },
+          {
+            "trait": "Long-legs",
+            "confidence": 0.54,
+            "box_xyxyn": [
+              0.1935,
+              0.6317,
+              0.304,
+              0.9766
+            ]
+          },
+          {
+            "trait": "Large-lips",
+            "confidence": 0.399,
+            "box_xyxyn": [
+              0.6193,
+              0.3906,
+              0.6563,
+              0.4385
+            ]
+          },
+          {
+            "trait": "High_withers",
+            "confidence": 0.385,
+            "box_xyxyn": [
+              0.3702,
+              0.3617,
+              0.4875,
+              0.4963
+            ]
+          }
+        ],
+        "traits_absent": [
+          "Large-head",
+          "Large-nose",
+          "Long-neck",
+          "Wide_body"
+        ]
+      }
+    ],
+    "unassigned_traits": [],
+    "note": "traits_absent is what the detector did not find. the report must not claim any of them."
+  },
+  {
+    "image": "BEAUTY_A029.jpeg",
+    "model": "b1-rgb",
+    "weights": "E:\\PycharmProjects\\camel-beauty-assessor\\runs\\baseline\\b1-rgb\\weights\\best.pt",
+    "conf_threshold": 0.25,
+    "cv_ms": 22.3,
+    "camels": [
+      {
+        "camel_id": 1,
+        "box_xyxyn": [
+          0.1965,
+          0.0718,
+          0.9726,
+          0.7823
+        ],
+        "confidence": 0.923,
+        "traits_present": [
+          {
+            "trait": "Long-legs",
+            "confidence": 0.92,
+            "box_xyxyn": [
+              0.7274,
+              0.3565,
+              0.891,
+              0.7638
+            ]
+          },
+          {
+            "trait": "Large_hump",
+            "confidence": 0.9,
+            "box_xyxyn": [
+              0.6647,
+              0.1019,
+              0.8246,
+              0.2639
+            ]
+          },
+          {
+            "trait": "Large-lips",
+            "confidence": 0.867,
+            "box_xyxyn": [
+              0.1985,
+              0.2039,
+              0.2516,
+              0.2654
+            ]
+          },
+          {
+            "trait": "Large-nose",
+            "confidence": 0.866,
+            "box_xyxyn": [
+              0.2047,
+              0.1455,
+              0.2704,
+              0.203
+            ]
+          },
+          {
+            "trait": "High_withers",
+            "confidence": 0.849,
+            "box_xyxyn": [
+              0.4929,
+              0.166,
+              0.6571,
+              0.2992
+            ]
+          },
+          {
+            "trait": "Wide_body",
+            "confidence": 0.474,
+            "box_xyxyn": [
+              0.6018,
+              0.2706,
+              0.7982,
+              0.3076
+            ]
+          },
+          {
+            "trait": "Long-neck",
+            "confidence": 0.428,
+            "box_xyxyn": [
+              0.2888,
+              0.2346,
+              0.5375,
+              0.4198
+            ]
+          },
+          {
+            "trait": "Wide_body",
+            "confidence": 0.315,
+            "box_xyxyn": [
+              0.6089,
+              0.2814,
+              0.8017,
+              0.3167
+            ]
+          }
+        ],
+        "traits_absent": [
+          "Large-head"
+        ]
+      }
+    ],
+    "unassigned_traits": [],
+    "note": "traits_absent is what the detector did not find. the report must not claim any of them."
+  },
+  {
+    "image": "BEAUTY_A032.jpeg",
+    "model": "b1-rgb",
+    "weights": "E:\\PycharmProjects\\camel-beauty-assessor\\runs\\baseline\\b1-rgb\\weights\\best.pt",
+    "conf_threshold": 0.25,
+    "cv_ms": 18.1,
+    "camels": [
+      {
+        "camel_id": 1,
+        "box_xyxyn": [
+          0.1952,
+          0.2084,
+          0.9509,
+          0.473
+        ],
+        "confidence": 0.944,
+        "traits_present": [
+          {
+            "trait": "Long-neck",
+            "confidence": 0.92,
+            "box_xyxyn": [
+              0.5914,
+              0.2408,
+              0.8101,
+              0.3422
+            ]
+          },
+          {
+            "trait": "High_withers",
+            "confidence": 0.786,
+            "box_xyxyn": [
+              0.5033,
+              0.2356,
+              0.6485,
+              0.2776
+            ]
+          },
+          {
+            "trait": "Large-nose",
+            "confidence": 0.625,
+            "box_xyxyn": [
+              0.8805,
+              0.2167,
+              0.9474,
+              0.235
+            ]
+          },
+          {
+            "trait": "Large-head",
+            "confidence": 0.568,
+            "box_xyxyn": [
+              0.7859,
+              0.2142,
+              0.9518,
+              0.2652
+            ]
+          },
+          {
+            "trait": "Large-lips",
+            "confidence": 0.492,
+            "box_xyxyn": [
+              0.8986,
+              0.2364,
+              0.9521,
+              0.2579
+            ]
+          }
+        ],
+        "traits_absent": [
+          "Large_hump",
+          "Long-legs",
+          "Wide_body"
+        ]
+      }
+    ],
+    "unassigned_traits": [],
+    "note": "traits_absent is what the detector did not find. the report must not claim any of them."
+  },
+  {
+    "image": "BEAUTY_A036.jpeg",
+    "model": "b1-rgb",
+    "weights": "E:\\PycharmProjects\\camel-beauty-assessor\\runs\\baseline\\b1-rgb\\weights\\best.pt",
+    "conf_threshold": 0.25,
+    "cv_ms": 14.4,
+    "camels": [
+      {
+        "camel_id": 1,
+        "box_xyxyn": [
+          0.2291,
+          0.3269,
+          0.7373,
+          0.7979
+        ],
+        "confidence": 0.849,
+        "traits_present": [
+          {
+            "trait": "Long-legs",
+            "confidence": 0.566,
+            "box_xyxyn": [
+              0.5548,
+              0.4898,
+              0.6335,
+              0.7807
+            ]
+          }
+        ],
+        "traits_absent": [
+          "High_withers",
+          "Large-head",
+          "Large-lips",
+          "Large-nose",
+          "Large_hump",
+          "Long-neck",
+          "Wide_body"
+        ]
+      }
+    ],
+    "unassigned_traits": [],
+    "note": "traits_absent is what the detector did not find. the report must not claim any of them."
+  },
+  {
+    "image": "BEAUTY_A055.jpeg",
+    "model": "b1-rgb",
+    "weights": "E:\\PycharmProjects\\camel-beauty-assessor\\runs\\baseline\\b1-rgb\\weights\\best.pt",
+    "conf_threshold": 0.25,
+    "cv_ms": 12.2,
+    "camels": [
+      {
+        "camel_id": 1,
+        "box_xyxyn": [
+          0.1015,
+          0.039,
+          0.8344,
+          0.7496
+        ],
+        "confidence": 0.912,
+        "traits_present": [
+          {
+            "trait": "Long-neck",
+            "confidence": 0.946,
+            "box_xyxyn": [
+              0.2242,
+              0.1804,
+              0.445,
+              0.3816
+            ]
+          },
+          {
+            "trait": "Long-legs",
+            "confidence": 0.917,
+            "box_xyxyn": [
+              0.6827,
+              0.3326,
+              0.7627,
+              0.6785
+            ]
+          },
+          {
+            "trait": "Large-lips",
+            "confidence": 0.897,
+            "box_xyxyn": [
+              0.1154,
+              0.132,
+              0.1606,
+              0.1847
+            ]
+          },
+          {
+            "trait": "High_withers",
+            "confidence": 0.714,
+            "box_xyxyn": [
+              0.4033,
+              0.1586,
+              0.5626,
+              0.2759
+            ]
+          },
+          {
+            "trait": "Wide_body",
+            "confidence": 0.513,
+            "box_xyxyn": [
+              0.4936,
+              0.2788,
+              0.6729,
+              0.3073
+            ]
+          },
+          {
+            "trait": "Large-nose",
+            "confidence": 0.478,
+            "box_xyxyn": [
+              0.1188,
+              0.0762,
+              0.1738,
+              0.1308
+            ]
+          },
+          {
+            "trait": "Wide_body",
+            "confidence": 0.361,
+            "box_xyxyn": [
+              0.5018,
+              0.2847,
+              0.6757,
+              0.3106
+            ]
+          }
+        ],
+        "traits_absent": [
+          "Large-head",
+          "Large_hump"
+        ]
+      }
+    ],
+    "unassigned_traits": [],
+    "note": "traits_absent is what the detector did not find. the report must not claim any of them."
+  },
+  {
+    "image": "BEAUTY_A070.jpeg",
+    "model": "b1-rgb",
+    "weights": "E:\\PycharmProjects\\camel-beauty-assessor\\runs\\baseline\\b1-rgb\\weights\\best.pt",
+    "conf_threshold": 0.25,
+    "cv_ms": 13.6,
+    "camels": [
+      {
+        "camel_id": 1,
+        "box_xyxyn": [
+          0.0671,
+          0.0256,
+          0.9914,
+          0.9306
+        ],
+        "confidence": 0.947,
+        "traits_present": [
+          {
+            "trait": "Long-neck",
+            "confidence": 0.952,
+            "box_xyxyn": [
+              0.2172,
+              0.1832,
+              0.4811,
+              0.4462
+            ]
+          },
+          {
+            "trait": "Large_hump",
+            "confidence": 0.898,
+            "box_xyxyn": [
+              0.62,
+              0.0496,
+              0.8122,
+              0.2213
+            ]
+          },
+          {
+            "trait": "High_withers",
+            "confidence": 0.869,
+            "box_xyxyn": [
+              0.4181,
+              0.1177,
+              0.632,
+              0.2941
+            ]
+          },
+          {
+            "trait": "Large-nose",
+            "confidence": 0.855,
+            "box_xyxyn": [
+              0.1363,
+              0.0813,
+              0.2038,
+              0.1469
+            ]
+          },
+          {
+            "trait": "Large-lips",
+            "confidence": 0.85,
+            "box_xyxyn": [
+              0.1374,
+              0.1532,
+              0.1922,
+              0.2216
+            ]
+          },
+          {
+            "trait": "Long-legs",
+            "confidence": 0.714,
+            "box_xyxyn": [
+              0.6849,
+              0.3374,
+              0.9128,
+              0.8099
+            ]
+          },
+          {
+            "trait": "Wide_body",
+            "confidence": 0.374,
+            "box_xyxyn": [
+              0.5373,
+              0.2493,
+              0.7983,
+              0.2939
+            ]
+          },
+          {
+            "trait": "Long-legs",
+            "confidence": 0.35,
+            "box_xyxyn": [
+              0.7626,
+              0.3111,
+              0.9558,
+              0.7581
+            ]
+          },
+          {
+            "trait": "Large-head",
+            "confidence": 0.301,
+            "box_xyxyn": [
+              0.131,
+              0.073,
+              0.3057,
+              0.2423
+            ]
+          },
+          {
+            "trait": "Long-legs",
+            "confidence": 0.26,
+            "box_xyxyn": [
+              0.4922,
+              0.3633,
+              0.61,
+              0.7916
+            ]
+          }
+        ],
+        "traits_absent": []
+      }
+    ],
+    "unassigned_traits": [],
+    "note": "traits_absent is what the detector did not find. the report must not claim any of them."
+  },
+  {
+    "image": "BEAUTY_A076.jpeg",
+    "model": "b1-rgb",
+    "weights": "E:\\PycharmProjects\\camel-beauty-assessor\\runs\\baseline\\b1-rgb\\weights\\best.pt",
+    "conf_threshold": 0.25,
+    "cv_ms": 11.9,
+    "camels": [
+      {
+        "camel_id": 1,
+        "box_xyxyn": [
+          0.2079,
+          0.1689,
+          0.9686,
+          0.3792
+        ],
+        "confidence": 0.857,
+        "traits_present": [
+          {
+            "trait": "Large-lips",
+            "confidence": 0.797,
+            "box_xyxyn": [
+              0.2204,
+              0.1908,
+              0.2538,
+              0.2075
+            ]
+          },
+          {
+            "trait": "Large-head",
+            "confidence": 0.749,
+            "box_xyxyn": [
+              0.2214,
+              0.1697,
+              0.3445,
+              0.2132
+            ]
+          },
+          {
+            "trait": "High_withers",
+            "confidence": 0.746,
+            "box_xyxyn": [
+              0.4663,
+              0.1935,
+              0.5805,
+              0.2307
+            ]
+          },
+          {
+            "trait": "Long-neck",
+            "confidence": 0.508,
+            "box_xyxyn": [
+              0.3185,
+              0.193,
+              0.4768,
+              0.2634
+            ]
+          },
+          {
+            "trait": "Large-lips",
+            "confidence": 0.348,
+            "box_xyxyn": [
+              0.2214,
+              0.1865,
+              0.2525,
+              0.2041
+            ]
+          }
+        ],
+        "traits_absent": [
+          "Large-nose",
+          "Large_hump",
+          "Long-legs",
+          "Wide_body"
+        ]
+      }
+    ],
+    "unassigned_traits": [],
+    "note": "traits_absent is what the detector did not find. the report must not claim any of them."
+  },
+  {
+    "image": "BEAUTY_B005.jpeg",
+    "model": "b1-rgb",
+    "weights": "E:\\PycharmProjects\\camel-beauty-assessor\\runs\\baseline\\b1-rgb\\weights\\best.pt",
+    "conf_threshold": 0.25,
+    "cv_ms": 12.7,
+    "camels": [
+      {
+        "camel_id": 1,
+        "box_xyxyn": [
+          0.0251,
+          0.0352,
+          0.9203,
+          0.9871
+        ],
+        "confidence": 0.944,
+        "traits_present": [
+          {
+            "trait": "High_withers",
+            "confidence": 0.969,
+            "box_xyxyn": [
+              0.3845,
+              0.2483,
+              0.5483,
+              0.4089
+            ]
+          },
+          {
+            "trait": "Large_hump",
+            "confidence": 0.964,
+            "box_xyxyn": [
+              0.1324,
+              0.1294,
+              0.3611,
+              0.3387
+            ]
+          },
+          {
+            "trait": "Large-nose",
+            "confidence": 0.921,
+            "box_xyxyn": [
+              0.8337,
+              0.1882,
+              0.9063,
+              0.2569
+            ]
+          },
+          {
+            "trait": "Long-legs",
+            "confidence": 0.907,
+            "box_xyxyn": [
+              0.0142,
+              0.4936,
+              0.1744,
+              0.9438
+            ]
+          },
+          {
+            "trait": "Large-lips",
+            "confidence": 0.787,
+            "box_xyxyn": [
+              0.8604,
+              0.2633,
+              0.9064,
+              0.3296
+            ]
+          },
+          {
+            "trait": "Long-neck",
+            "confidence": 0.678,
+            "box_xyxyn": [
+              0.5067,
+              0.2938,
+              0.7929,
+              0.5458
+            ]
+          },
+          {
+            "trait": "Wide_body",
+            "confidence": 0.457,
+            "box_xyxyn": [
+              0.1699,
+              0.357,
+              0.4155,
+              0.428
+            ]
+          },
+          {
+            "trait": "Long-legs",
+            "confidence": 0.448,
+            "box_xyxyn": [
+              0.1209,
+              0.5384,
+              0.299,
+              0.9597
+            ]
+          },
+          {
+            "trait": "Wide_body",
+            "confidence": 0.413,
+            "box_xyxyn": [
+              0.1626,
+              0.3488,
+              0.4178,
+              0.4534
+            ]
+          }
+        ],
+        "traits_absent": [
+          "Large-head"
+        ]
+      }
+    ],
+    "unassigned_traits": [],
+    "note": "traits_absent is what the detector did not find. the report must not claim any of them."
+  },
+  {
+    "image": "BEAUTY_B010.jpeg",
+    "model": "b1-rgb",
+    "weights": "E:\\PycharmProjects\\camel-beauty-assessor\\runs\\baseline\\b1-rgb\\weights\\best.pt",
+    "conf_threshold": 0.25,
+    "cv_ms": 16.4,
+    "camels": [
+      {
+        "camel_id": 1,
+        "box_xyxyn": [
+          0.0397,
+          0.0389,
+          0.8878,
+          0.8396
+        ],
+        "confidence": 0.911,
+        "traits_present": [
+          {
+            "trait": "High_withers",
+            "confidence": 0.984,
+            "box_xyxyn": [
+              0.3809,
+              0.1726,
+              0.5269,
+              0.2978
+            ]
+          },
+          {
+            "trait": "Large_hump",
+            "confidence": 0.927,
+            "box_xyxyn": [
+              0.1067,
+              0.069,
+              0.3449,
+              0.2417
+            ]
+          },
+          {
+            "trait": "Large-lips",
+            "confidence": 0.88,
+            "box_xyxyn": [
+              0.8328,
+              0.129,
+              0.8817,
+              0.1794
+            ]
+          },
+          {
+            "trait": "Large-head",
+            "confidence": 0.844,
+            "box_xyxyn": [
+              0.6928,
+              0.057,
+              0.8894,
+              0.2032
+            ]
+          },
+          {
+            "trait": "Large-nose",
+            "confidence": 0.841,
+            "box_xyxyn": [
+              0.8081,
+              0.0637,
+              0.8777,
+              0.1221
+            ]
+          },
+          {
+            "trait": "Long-legs",
+            "confidence": 0.562,
+            "box_xyxyn": [
+              0.1114,
+              0.4117,
+              0.2127,
+              0.8196
+            ]
+          },
+          {
+            "trait": "Long-neck",
+            "confidence": 0.424,
+            "box_xyxyn": [
+              0.5081,
+              0.1517,
+              0.765,
+              0.4318
+            ]
+          },
+          {
+            "trait": "Wide_body",
+            "confidence": 0.396,
+            "box_xyxyn": [
+              0.1685,
+              0.2728,
+              0.4401,
+              0.3189
+            ]
+          },
+          {
+            "trait": "Wide_body",
+            "confidence": 0.26,
+            "box_xyxyn": [
+              0.1737,
+              0.2648,
+              0.4383,
+              0.3114
+            ]
+          }
+        ],
+        "traits_absent": []
+      }
+    ],
+    "unassigned_traits": [],
+    "note": "traits_absent is what the detector did not find. the report must not claim any of them."
+  },
+  {
+    "image": "BEAUTY_B018.jpeg",
+    "model": "b1-rgb",
+    "weights": "E:\\PycharmProjects\\camel-beauty-assessor\\runs\\baseline\\b1-rgb\\weights\\best.pt",
+    "conf_threshold": 0.25,
+    "cv_ms": 13.2,
+    "camels": [
+      {
+        "camel_id": 1,
+        "box_xyxyn": [
+          0.0089,
+          0.1973,
+          0.9659,
+          0.9677
+        ],
+        "confidence": 0.935,
+        "traits_present": [
+          {
+            "trait": "Long-neck",
+            "confidence": 0.766,
+            "box_xyxyn": [
+              0.1227,
+              0.3507,
+              0.3797,
+              0.5478
+            ]
+          },
+          {
+            "trait": "High_withers",
+            "confidence": 0.764,
+            "box_xyxyn": [
+              0.3195,
+              0.2618,
+              0.4887,
+              0.4297
+            ]
+          },
+          {
+            "trait": "Long-legs",
+            "confidence": 0.655,
+            "box_xyxyn": [
+              0.6292,
+              0.4478,
+              0.8229,
+              0.9547
+            ]
+          },
+          {
+            "trait": "Large-nose",
+            "confidence": 0.443,
+            "box_xyxyn": [
+              0.0099,
+              0.2829,
+              0.0771,
+              0.3327
+            ]
+          },
+          {
+            "trait": "Large_hump",
+            "confidence": 0.418,
+            "box_xyxyn": [
+              0.4724,
+              0.202,
+              0.7342,
+              0.3827
+            ]
+          },
+          {
+            "trait": "Large-lips",
+            "confidence": 0.392,
+            "box_xyxyn": [
+              0.0045,
+              0.3342,
+              0.0595,
+              0.3886
+            ]
+          }
+        ],
+        "traits_absent": [
+          "Large-head",
+          "Wide_body"
+        ]
+      }
+    ],
+    "unassigned_traits": [],
+    "note": "traits_absent is what the detector did not find. the report must not claim any of them."
+  },
+  {
+    "image": "NEGATIVE_A018.jpeg",
+    "model": "b1-rgb",
+    "weights": "E:\\PycharmProjects\\camel-beauty-assessor\\runs\\baseline\\b1-rgb\\weights\\best.pt",
+    "conf_threshold": 0.25,
+    "cv_ms": 11.1,
+    "camels": [
+      {
+        "camel_id": 1,
+        "box_xyxyn": [
+          0.0331,
+          0.0258,
+          1.0,
+          0.9552
+        ],
+        "confidence": 0.951,
+        "traits_present": [
+          {
+            "trait": "Long-neck",
+            "confidence": 0.719,
+            "box_xyxyn": [
+              0.1178,
+              0.1946,
+              0.3996,
+              0.4065
+            ]
+          }
+        ],
+        "traits_absent": [
+          "High_withers",
+          "Large-head",
+          "Large-lips",
+          "Large-nose",
+          "Large_hump",
+          "Long-legs",
+          "Wide_body"
+        ]
+      }
+    ],
+    "unassigned_traits": [],
+    "note": "traits_absent is what the detector did not find. the report must not claim any of them."
+  },
+  {
+    "image": "NEGATIVE_A019.jpeg",
+    "model": "b1-rgb",
+    "weights": "E:\\PycharmProjects\\camel-beauty-assessor\\runs\\baseline\\b1-rgb\\weights\\best.pt",
+    "conf_threshold": 0.25,
+    "cv_ms": 11.9,
+    "camels": [
+      {
+        "camel_id": 1,
+        "box_xyxyn": [
+          0.1828,
+          0.044,
+          0.8823,
+          0.8932
+        ],
+        "confidence": 0.912,
+        "traits_present": [
+          {
+            "trait": "Long-neck",
+            "confidence": 0.941,
+            "box_xyxyn": [
+              0.2963,
+              0.1682,
+              0.4724,
+              0.4786
+            ]
+          },
+          {
+            "trait": "High_withers",
+            "confidence": 0.514,
+            "box_xyxyn": [
+              0.4674,
+              0.2401,
+              0.5849,
+              0.348
+            ]
+          }
+        ],
+        "traits_absent": [
+          "Large-head",
+          "Large-lips",
+          "Large-nose",
+          "Large_hump",
+          "Long-legs",
+          "Wide_body"
+        ]
+      }
+    ],
+    "unassigned_traits": [],
+    "note": "traits_absent is what the detector did not find. the report must not claim any of them."
+  },
+  {
+    "image": "NEGATIVE_A028.jpeg",
+    "model": "b1-rgb",
+    "weights": "E:\\PycharmProjects\\camel-beauty-assessor\\runs\\baseline\\b1-rgb\\weights\\best.pt",
+    "conf_threshold": 0.25,
+    "cv_ms": 11.3,
+    "camels": [
+      {
+        "camel_id": 1,
+        "box_xyxyn": [
+          0.0119,
+          0.1368,
+          0.9303,
+          0.7185
+        ],
+        "confidence": 0.958,
+        "traits_present": [
+          {
+            "trait": "Long-neck",
+            "confidence": 0.781,
+            "box_xyxyn": [
+              0.476,
+              0.2151,
+              0.8218,
+              0.4247
+            ]
+          }
+        ],
+        "traits_absent": [
+          "High_withers",
+          "Large-head",
+          "Large-lips",
+          "Large-nose",
+          "Large_hump",
+          "Long-legs",
+          "Wide_body"
+        ]
+      },
+      {
+        "camel_id": 2,
+        "box_xyxyn": [
+          0.6666,
+          0.4,
+          0.9893,
+          0.7489
+        ],
+        "confidence": 0.845,
+        "traits_present": [],
+        "traits_absent": [
+          "High_withers",
+          "Large-head",
+          "Large-lips",
+          "Large-nose",
+          "Large_hump",
+          "Long-legs",
+          "Long-neck",
+          "Wide_body"
+        ]
+      }
+    ],
+    "unassigned_traits": [],
+    "note": "traits_absent is what the detector did not find. the report must not claim any of them."
+  },
+  {
+    "image": "NEGATIVE_A032.jpeg",
+    "model": "b1-rgb",
+    "weights": "E:\\PycharmProjects\\camel-beauty-assessor\\runs\\baseline\\b1-rgb\\weights\\best.pt",
+    "conf_threshold": 0.25,
+    "cv_ms": 15.7,
+    "camels": [
+      {
+        "camel_id": 1,
+        "box_xyxyn": [
+          0.2076,
+          0.2314,
+          0.8484,
+          0.4133
+        ],
+        "confidence": 0.942,
+        "traits_present": [
+          {
+            "trait": "Long-neck",
+            "confidence": 0.696,
+            "box_xyxyn": [
+              0.629,
+              0.2482,
+              0.7787,
+              0.313
+            ]
+          }
+        ],
+        "traits_absent": [
+          "High_withers",
+          "Large-head",
+          "Large-lips",
+          "Large-nose",
+          "Large_hump",
+          "Long-legs",
+          "Wide_body"
+        ]
+      }
+    ],
+    "unassigned_traits": [],
+    "note": "traits_absent is what the detector did not find. the report must not claim any of them."
+  },
+  {
+    "image": "NEGATIVE_A034.jpeg",
+    "model": "b1-rgb",
+    "weights": "E:\\PycharmProjects\\camel-beauty-assessor\\runs\\baseline\\b1-rgb\\weights\\best.pt",
+    "conf_threshold": 0.25,
+    "cv_ms": 14.1,
+    "camels": [
+      {
+        "camel_id": 1,
+        "box_xyxyn": [
+          0.0953,
+          0.0657,
+          0.8404,
+          0.8923
+        ],
+        "confidence": 0.932,
+        "traits_present": [
+          {
+            "trait": "Long-neck",
+            "confidence": 0.897,
+            "box_xyxyn": [
+              0.468,
+              0.2481,
+              0.7157,
+              0.4838
+            ]
+          }
+        ],
+        "traits_absent": [
+          "High_withers",
+          "Large-head",
+          "Large-lips",
+          "Large-nose",
+          "Large_hump",
+          "Long-legs",
+          "Wide_body"
+        ]
+      }
+    ],
+    "unassigned_traits": [],
+    "note": "traits_absent is what the detector did not find. the report must not claim any of them."
+  },
+  {
+    "image": "NEGATIVE_A041.jpeg",
+    "model": "b1-rgb",
+    "weights": "E:\\PycharmProjects\\camel-beauty-assessor\\runs\\baseline\\b1-rgb\\weights\\best.pt",
+    "conf_threshold": 0.25,
+    "cv_ms": 13.7,
+    "camels": [
+      {
+        "camel_id": 1,
+        "box_xyxyn": [
+          0.1786,
+          0.1996,
+          0.7924,
+          0.9837
+        ],
+        "confidence": 0.952,
+        "traits_present": [
+          {
+            "trait": "Long-neck",
+            "confidence": 0.945,
+            "box_xyxyn": [
+              0.2761,
+              0.297,
+              0.4387,
+              0.5138
+            ]
+          }
+        ],
+        "traits_absent": [
+          "High_withers",
+          "Large-head",
+          "Large-lips",
+          "Large-nose",
+          "Large_hump",
+          "Long-legs",
+          "Wide_body"
+        ]
+      },
+      {
+        "camel_id": 2,
+        "box_xyxyn": [
+          0.3212,
+          0.503,
+          0.4961,
+          0.7663
+        ],
+        "confidence": 0.763,
+        "traits_present": [],
+        "traits_absent": [
+          "High_withers",
+          "Large-head",
+          "Large-lips",
+          "Large-nose",
+          "Large_hump",
+          "Long-legs",
+          "Long-neck",
+          "Wide_body"
+        ]
+      },
+      {
+        "camel_id": 3,
+        "box_xyxyn": [
+          0.8977,
+          0.6222,
+          0.9453,
+          0.7815
+        ],
+        "confidence": 0.259,
+        "traits_present": [],
+        "traits_absent": [
+          "High_withers",
+          "Large-head",
+          "Large-lips",
+          "Large-nose",
+          "Large_hump",
+          "Long-legs",
+          "Long-neck",
+          "Wide_body"
+        ]
+      }
+    ],
+    "unassigned_traits": [],
+    "note": "traits_absent is what the detector did not find. the report must not claim any of them."
+  },
+  {
+    "image": "NEGATIVE_A051.jpeg",
+    "model": "b1-rgb",
+    "weights": "E:\\PycharmProjects\\camel-beauty-assessor\\runs\\baseline\\b1-rgb\\weights\\best.pt",
+    "conf_threshold": 0.25,
+    "cv_ms": 14.3,
+    "camels": [
+      {
+        "camel_id": 1,
+        "box_xyxyn": [
+          0.129,
+          0.11,
+          0.8316,
+          0.9996
+        ],
+        "confidence": 0.947,
+        "traits_present": [],
+        "traits_absent": [
+          "High_withers",
+          "Large-head",
+          "Large-lips",
+          "Large-nose",
+          "Large_hump",
+          "Long-legs",
+          "Long-neck",
+          "Wide_body"
+        ]
+      },
+      {
+        "camel_id": 2,
+        "box_xyxyn": [
+          0.7202,
+          0.1873,
+          0.98,
+          0.7914
+        ],
+        "confidence": 0.605,
+        "traits_present": [],
+        "traits_absent": [
+          "High_withers",
+          "Large-head",
+          "Large-lips",
+          "Large-nose",
+          "Large_hump",
+          "Long-legs",
+          "Long-neck",
+          "Wide_body"
+        ]
+      },
+      {
+        "camel_id": 3,
+        "box_xyxyn": [
+          0.9555,
+          0.3479,
+          0.9996,
+          0.7611
+        ],
+        "confidence": 0.574,
+        "traits_present": [],
+        "traits_absent": [
+          "High_withers",
+          "Large-head",
+          "Large-lips",
+          "Large-nose",
+          "Large_hump",
+          "Long-legs",
+          "Long-neck",
+          "Wide_body"
+        ]
+      },
+      {
+        "camel_id": 4,
+        "box_xyxyn": [
+          0.9157,
+          0.2019,
+          1.0,
+          0.7893
+        ],
+        "confidence": 0.52,
+        "traits_present": [],
+        "traits_absent": [
+          "High_withers",
+          "Large-head",
+          "Large-lips",
+          "Large-nose",
+          "Large_hump",
+          "Long-legs",
+          "Long-neck",
+          "Wide_body"
+        ]
+      },
+      {
+        "camel_id": 5,
+        "box_xyxyn": [
+          0.9522,
+          0.2189,
+          1.0,
+          0.7508
+        ],
+        "confidence": 0.487,
+        "traits_present": [],
+        "traits_absent": [
+          "High_withers",
+          "Large-head",
+          "Large-lips",
+          "Large-nose",
+          "Large_hump",
+          "Long-legs",
+          "Long-neck",
+          "Wide_body"
+        ]
+      }
+    ],
+    "unassigned_traits": [],
+    "note": "traits_absent is what the detector did not find. the report must not claim any of them."
+  },
+  {
+    "image": "NEGATIVE_A059.jpeg",
+    "model": "b1-rgb",
+    "weights": "E:\\PycharmProjects\\camel-beauty-assessor\\runs\\baseline\\b1-rgb\\weights\\best.pt",
+    "conf_threshold": 0.25,
+    "cv_ms": 10.4,
+    "camels": [
+      {
+        "camel_id": 1,
+        "box_xyxyn": [
+          0.0302,
+          0.28,
+          0.9497,
+          0.9182
+        ],
+        "confidence": 0.951,
+        "traits_present": [
+          {
+            "trait": "Long-neck",
+            "confidence": 0.633,
+            "box_xyxyn": [
+              0.6224,
+              0.3519,
+              0.8281,
+              0.5375
+            ]
+          }
+        ],
+        "traits_absent": [
+          "High_withers",
+          "Large-head",
+          "Large-lips",
+          "Large-nose",
+          "Large_hump",
+          "Long-legs",
+          "Wide_body"
+        ]
+      }
+    ],
+    "unassigned_traits": [],
+    "note": "traits_absent is what the detector did not find. the report must not claim any of them."
+  },
+  {
+    "image": "NEGATIVE_A064.jpeg",
+    "model": "b1-rgb",
+    "weights": "E:\\PycharmProjects\\camel-beauty-assessor\\runs\\baseline\\b1-rgb\\weights\\best.pt",
+    "conf_threshold": 0.25,
+    "cv_ms": 10.1,
+    "camels": [
+      {
+        "camel_id": 1,
+        "box_xyxyn": [
+          0.0298,
+          0.2883,
+          1.0,
+          0.9216
+        ],
+        "confidence": 0.955,
+        "traits_present": [
+          {
+            "trait": "Long-neck",
+            "confidence": 0.769,
+            "box_xyxyn": [
+              0.1422,
+              0.3746,
+              0.4387,
+              0.5467
+            ]
+          },
+          {
+            "trait": "Long-legs",
+            "confidence": 0.45,
+            "box_xyxyn": [
+              0.5412,
+              0.4871,
+              0.7521,
+              0.9277
+            ]
+          },
+          {
+            "trait": "High_withers",
+            "confidence": 0.423,
+            "box_xyxyn": [
+              0.3946,
+              0.3447,
+              0.6071,
+              0.4504
+            ]
+          },
+          {
+            "trait": "Wide_body",
+            "confidence": 0.254,
+            "box_xyxyn": [
+              0.6104,
+              0.4177,
+              0.912,
+              0.4401
+            ]
+          }
+        ],
+        "traits_absent": [
+          "Large-head",
+          "Large-lips",
+          "Large-nose",
+          "Large_hump"
+        ]
+      },
+      {
+        "camel_id": 2,
+        "box_xyxyn": [
+          0.0038,
+          0.566,
+          0.1536,
+          0.6648
+        ],
+        "confidence": 0.791,
+        "traits_present": [],
+        "traits_absent": [
+          "High_withers",
+          "Large-head",
+          "Large-lips",
+          "Large-nose",
+          "Large_hump",
+          "Long-legs",
+          "Long-neck",
+          "Wide_body"
+        ]
+      }
+    ],
+    "unassigned_traits": [],
+    "note": "traits_absent is what the detector did not find. the report must not claim any of them."
+  },
+  {
+    "image": "NEGATIVE_A073.jpeg",
+    "model": "b1-rgb",
+    "weights": "E:\\PycharmProjects\\camel-beauty-assessor\\runs\\baseline\\b1-rgb\\weights\\best.pt",
+    "conf_threshold": 0.25,
+    "cv_ms": 10.3,
+    "camels": [
+      {
+        "camel_id": 1,
+        "box_xyxyn": [
+          0.1032,
+          0.1714,
+          0.8885,
+          0.4742
+        ],
+        "confidence": 0.947,
+        "traits_present": [
+          {
+            "trait": "Long-neck",
+            "confidence": 0.94,
+            "box_xyxyn": [
+              0.2358,
+              0.2017,
+              0.4847,
+              0.3104
+            ]
+          }
+        ],
+        "traits_absent": [
+          "High_withers",
+          "Large-head",
+          "Large-lips",
+          "Large-nose",
+          "Large_hump",
+          "Long-legs",
+          "Wide_body"
+        ]
+      },
+      {
+        "camel_id": 2,
+        "box_xyxyn": [
+          0.8206,
+          0.2705,
+          0.8955,
+          0.353
+        ],
+        "confidence": 0.627,
+        "traits_present": [],
+        "traits_absent": [
+          "High_withers",
+          "Large-head",
+          "Large-lips",
+          "Large-nose",
+          "Large_hump",
+          "Long-legs",
+          "Long-neck",
+          "Wide_body"
+        ]
+      },
+      {
+        "camel_id": 3,
+        "box_xyxyn": [
+          0.8491,
+          0.2686,
+          0.8961,
+          0.353
+        ],
+        "confidence": 0.508,
+        "traits_present": [],
+        "traits_absent": [
+          "High_withers",
+          "Large-head",
+          "Large-lips",
+          "Large-nose",
+          "Large_hump",
+          "Long-legs",
+          "Long-neck",
+          "Wide_body"
+        ]
+      }
+    ],
+    "unassigned_traits": [],
+    "note": "traits_absent is what the detector did not find. the report must not claim any of them."
+  },
+  {
+    "image": "NEGATIVE_B005.png",
+    "model": "b1-rgb",
+    "weights": "E:\\PycharmProjects\\camel-beauty-assessor\\runs\\baseline\\b1-rgb\\weights\\best.pt",
+    "conf_threshold": 0.25,
+    "cv_ms": 26.9,
+    "camels": [
+      {
+        "camel_id": 1,
+        "box_xyxyn": [
+          0.0303,
+          0.3212,
+          0.9765,
+          0.7755
+        ],
+        "confidence": 0.937,
+        "traits_present": [
+          {
+            "trait": "Long-legs",
+            "confidence": 0.929,
+            "box_xyxyn": [
+              0.6856,
+              0.4818,
+              0.9005,
+              0.774
+            ]
+          },
+          {
+            "trait": "Large_hump",
+            "confidence": 0.641,
+            "box_xyxyn": [
+              0.5885,
+              0.3226,
+              0.8057,
+              0.4178
+            ]
+          },
+          {
+            "trait": "Wide_body",
+            "confidence": 0.523,
+            "box_xyxyn": [
+              0.5121,
+              0.4378,
+              0.7868,
+              0.4656
+            ]
+          },
+          {
+            "trait": "Long-neck",
+            "confidence": 0.486,
+            "box_xyxyn": [
+              0.1542,
+              0.401,
+              0.3987,
+              0.5254
+            ]
+          }
+        ],
+        "traits_absent": [
+          "High_withers",
+          "Large-head",
+          "Large-lips",
+          "Large-nose"
+        ]
+      }
+    ],
+    "unassigned_traits": [],
+    "note": "traits_absent is what the detector did not find. the report must not claim any of them."
+  },
+  {
+    "image": "NEGATIVE_B006.png",
+    "model": "b1-rgb",
+    "weights": "E:\\PycharmProjects\\camel-beauty-assessor\\runs\\baseline\\b1-rgb\\weights\\best.pt",
+    "conf_threshold": 0.25,
+    "cv_ms": 28.9,
+    "camels": [
+      {
+        "camel_id": 1,
+        "box_xyxyn": [
+          0.0696,
+          0.2917,
+          0.9457,
+          0.8152
+        ],
+        "confidence": 0.934,
+        "traits_present": [
+          {
+            "trait": "Long-legs",
+            "confidence": 0.911,
+            "box_xyxyn": [
+              0.7765,
+              0.4557,
+              0.9339,
+              0.816
+            ]
+          },
+          {
+            "trait": "Wide_body",
+            "confidence": 0.625,
+            "box_xyxyn": [
+              0.5146,
+              0.4154,
+              0.7707,
+              0.4491
+            ]
+          },
+          {
+            "trait": "Wide_body",
+            "confidence": 0.434,
+            "box_xyxyn": [
+              0.5162,
+              0.4244,
+              0.7677,
+              0.4501
+            ]
+          },
+          {
+            "trait": "Wide_body",
+            "confidence": 0.407,
+            "box_xyxyn": [
+              0.5092,
+              0.4199,
+              0.771,
+              0.4426
+            ]
+          },
+          {
+            "trait": "Wide_body",
+            "confidence": 0.311,
+            "box_xyxyn": [
+              0.5069,
+              0.4051,
+              0.7781,
+              0.447
+            ]
+          }
+        ],
+        "traits_absent": [
+          "High_withers",
+          "Large-head",
+          "Large-lips",
+          "Large-nose",
+          "Large_hump",
+          "Long-neck"
+        ]
+      }
+    ],
+    "unassigned_traits": [],
+    "note": "traits_absent is what the detector did not find. the report must not claim any of them."
+  },
+  {
+    "image": "NEGATIVE_B014.png",
+    "model": "b1-rgb",
+    "weights": "E:\\PycharmProjects\\camel-beauty-assessor\\runs\\baseline\\b1-rgb\\weights\\best.pt",
+    "conf_threshold": 0.25,
+    "cv_ms": 30.2,
+    "camels": [
+      {
+        "camel_id": 1,
+        "box_xyxyn": [
+          0.0943,
+          0.2493,
+          0.9661,
+          0.8205
+        ],
+        "confidence": 0.952,
+        "traits_present": [
+          {
+            "trait": "Long-legs",
+            "confidence": 0.654,
+            "box_xyxyn": [
+              0.7329,
+              0.4424,
+              0.8823,
+              0.8171
+            ]
+          },
+          {
+            "trait": "Wide_body",
+            "confidence": 0.489,
+            "box_xyxyn": [
+              0.5283,
+              0.4066,
+              0.7874,
+              0.4254
+            ]
+          },
+          {
+            "trait": "Wide_body",
+            "confidence": 0.372,
+            "box_xyxyn": [
+              0.5309,
+              0.4035,
+              0.7826,
+              0.4212
+            ]
+          },
+          {
+            "trait": "Wide_body",
+            "confidence": 0.272,
+            "box_xyxyn": [
+              0.5281,
+              0.3974,
+              0.7813,
+              0.4196
+            ]
+          },
+          {
+            "trait": "Wide_body",
+            "confidence": 0.254,
+            "box_xyxyn": [
+              0.5313,
+              0.4157,
+              0.7843,
+              0.4332
+            ]
+          }
+        ],
+        "traits_absent": [
+          "High_withers",
+          "Large-head",
+          "Large-lips",
+          "Large-nose",
+          "Large_hump",
+          "Long-neck"
+        ]
+      }
+    ],
+    "unassigned_traits": [],
+    "note": "traits_absent is what the detector did not find. the report must not claim any of them."
+  },
+  {
+    "image": "NEGATIVE_B020.jpg",
+    "model": "b1-rgb",
+    "weights": "E:\\PycharmProjects\\camel-beauty-assessor\\runs\\baseline\\b1-rgb\\weights\\best.pt",
+    "conf_threshold": 0.25,
+    "cv_ms": 10.1,
+    "camels": [
+      {
+        "camel_id": 1,
+        "box_xyxyn": [
+          0.363,
+          0.3317,
+          0.8427,
+          0.8688
+        ],
+        "confidence": 0.909,
+        "traits_present": [
+          {
+            "trait": "Long-legs",
+            "confidence": 0.946,
+            "box_xyxyn": [
+              0.6755,
+              0.4958,
+              0.7655,
+              0.7905
+            ]
+          },
+          {
+            "trait": "High_withers",
+            "confidence": 0.625,
+            "box_xyxyn": [
+              0.5271,
+              0.3522,
+              0.6157,
+              0.4764
+            ]
+          },
+          {
+            "trait": "Large-lips",
+            "confidence": 0.588,
+            "box_xyxyn": [
+              0.372,
+              0.4266,
+              0.4045,
+              0.4657
+            ]
+          },
+          {
+            "trait": "Large-nose",
+            "confidence": 0.269,
+            "box_xyxyn": [
+              0.3728,
+              0.3943,
+              0.4186,
+              0.4422
+            ]
+          }
+        ],
+        "traits_absent": [
+          "Large-head",
+          "Large_hump",
+          "Long-neck",
+          "Wide_body"
+        ]
+      }
+    ],
+    "unassigned_traits": [
+      {
+        "trait": "Long-legs",
+        "confidence": 0.306,
+        "box_xyxyn": [
+          0.0002,
+          0.4062,
+          0.049,
+          0.7067
+        ]
+      }
+    ],
+    "note": "traits_absent is what the detector did not find. the report must not claim any of them."
+  }
+]
