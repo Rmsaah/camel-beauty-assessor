@@ -99,3 +99,7 @@ Thumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 .DS_Store
+
+# the handover folder is tracked on purpose, weights included
+!export/
+!export/**
