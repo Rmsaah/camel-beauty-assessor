@@ -1,24 +1,59 @@
 {
-  "model_file": "model.pt",
-  "source_run": "b1-rgb",
-  "dataset_version": "v2",
-  "dataset": "plain",
-  "imgsz": 640,
-  "conf": 0.01,
-  "classes": [
-    "Camel",
-    "High_withers",
-    "Large-head",
-    "Large-lips",
-    "Large-nose",
-    "Large_hump",
-    "Long-legs",
-    "Long-neck",
-    "Wide_body"
-  ],
-  "test_mAP50": 0.7983,
-  "test_mAP50_95": 0.4384,
-  "test_precision": 0.7546,
-  "test_recall": 0.7915,
-  "note": "conf is a reporting floor, not a filter. every trait is returned, 0.0 means not found."
+  "note": "conf is a reporting floor, not a filter. every trait is returned, 0.0 means the detector found nothing for it.",
+  "models": [
+    {
+      "model_file": "model_gray.pt",
+      "rank": 1,
+      "source_run": "e1-gray--aug+",
+      "dataset_version": "v2",
+      "dataset": "gray",
+      "colour_space": "gray",
+      "input_note": "convert the image to grayscale then back to 3 channels: img.convert('L').convert('RGB')",
+      "imgsz": 640,
+      "conf": 0.01,
+      "classes": [
+        "Camel",
+        "High_withers",
+        "Large-head",
+        "Large-lips",
+        "Large-nose",
+        "Large_hump",
+        "Long-legs",
+        "Long-neck",
+        "Wide_body"
+      ],
+      "test_mAP50": 0.8113,
+      "test_mAP50_95": 0.4501,
+      "test_precision": 0.7658,
+      "test_recall": 0.8271,
+      "ultralytics": "8.4.142"
+    },
+    {
+      "model_file": "model_rgb.pt",
+      "rank": 2,
+      "source_run": "b1-rgb--aug+",
+      "dataset_version": "v2",
+      "dataset": "plain",
+      "colour_space": "rgb",
+      "input_note": "feed the image as rgb, no colour conversion",
+      "imgsz": 640,
+      "conf": 0.01,
+      "classes": [
+        "Camel",
+        "High_withers",
+        "Large-head",
+        "Large-lips",
+        "Large-nose",
+        "Large_hump",
+        "Long-legs",
+        "Long-neck",
+        "Wide_body"
+      ],
+      "test_mAP50": 0.8323,
+      "test_mAP50_95": 0.4484,
+      "test_precision": 0.7757,
+      "test_recall": 0.7625,
+      "ultralytics": "8.4.142"
+    }
+  ]
 }
