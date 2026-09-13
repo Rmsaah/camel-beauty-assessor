@@ -2,8 +2,9 @@
   "note": "conf is a reporting floor, not a filter. every trait is returned, 0.0 means the detector found nothing for it.",
   "models": [
     {
-      "model_file": "model_gray.pt",
+      "model_file": "model_gray_chosen.pt",
       "rank": 1,
+      "chosen": true,
       "source_run": "e1-gray--aug+",
       "dataset_version": "v2",
       "dataset": "gray",
@@ -31,6 +32,7 @@
     {
       "model_file": "model_rgb.pt",
       "rank": 2,
+      "chosen": false,
       "source_run": "b1-rgb--aug+",
       "dataset_version": "v2",
       "dataset": "plain",

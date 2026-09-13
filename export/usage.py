@@ -4,7 +4,7 @@ from PIL import Image, ImageOps
 from ultralytics import YOLO
 
 MODELS = {
-    "gray": {"file": "model_gray.pt", "imgsz": 640, "conf": 0.01},
+    "gray": {"file": "model_gray_chosen.pt", "imgsz": 640, "conf": 0.01},
     "rgb": {"file": "model_rgb.pt", "imgsz": 640, "conf": 0.01},
 }
 

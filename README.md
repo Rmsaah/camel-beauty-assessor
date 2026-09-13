@@ -66,8 +66,12 @@ backbone, raising the image size and training longer all made things worse.
 
 | file | input | mAP50-95 | use for |
 |---|---|---|---|
-| `export/model_gray.pt` | grayscale | 0.4501 | ranking, higher recall |
+| `export/model_gray_chosen.pt` | grayscale | 0.4501 | **chosen.** ranking, higher recall |
 | `export/model_rgb.pt` | rgb | 0.4484 | written claims, higher precision |
+
+`model_gray_chosen.pt` is the one the platform ships. On 28 test images the two score the same within
+noise, so the choice was made on recall, 0.8271 against 0.7625, and on dropping a colour variation
+the training set is too small to cover. It only accepts grayscale input, see Setup Instructions.
 
 Output is one record per image: the camel's confidence, then all eight traits with a confidence and a
 box. A trait that was not found scores 0.0, so the shape never changes and there is no threshold.
@@ -96,13 +100,16 @@ pip install --index-url https://download.pytorch.org/whl/cu130 torch torchvision
 from PIL import Image, ImageOps
 from ultralytics import YOLO
 
-model = YOLO("export/model_rgb.pt")
-img = ImageOps.exif_transpose(Image.open("camel.jpg")).convert("RGB")
+model = YOLO("export/model_gray_chosen.pt")
+img = ImageOps.exif_transpose(Image.open("camel.jpg"))
+img = img.convert("L").convert("RGB")
 r = model.predict(img, conf=0.01, imgsz=640, verbose=False)[0]
 ```
 
-Ultralytics handles the resizing and normalisation. For `model_gray.pt` use
-`.convert("L").convert("RGB")` instead.
+Ultralytics handles the resizing and normalisation. The two lines before it are not optional:
+`exif_transpose` applies the rotation phone photos keep in metadata, and `.convert("L").convert("RGB")`
+matches what the model was trained and tested on. Skip either and it scores a sideways or a
+full-colour image without raising anything. For `model_rgb.pt` use `.convert("RGB")` alone.
 
 ## Limitations
 
